@@ -1,0 +1,5 @@
+#!/bin/sh
+
+/usr/bin/invoke_app "$@" -C "start_jupyter -t -T @tool bin/MEMSoscnet.ipynb" \
+                         -u anaconda2-4.1
+
